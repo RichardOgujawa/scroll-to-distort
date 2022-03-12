@@ -1,0 +1,19 @@
+Variables: 
+- have a variable for each image, and set each one's position off-screen initially, and then bring it on-screen whenever the mouse hits a certain mouseX position
+
+Each photo will represent a stage in the person's life (early childhood (3-8 years of age), middle childhood (8-12 years), adolescence (13-19 years), early adulthood (20-40 years), middle adulthood (40-65 years), old age (66-death). 
+
+Do a data transformation effect between the photos
+
+function draw (){
+Map the user's mouse movement
+The horizontal movement of the mouse, changes the photo being displayed 
+The horizontal movement of the mouse also leads to more and more distortion 
+We should start with a clean baby photo and end with a distorted older person photo
+}
+
+If this is too hard to do just have it be a generative design, without human interaction.
+
+Because we don't know the effects of social media in old age, maybe only have it go from early childhood to adulthood.
+
+Use StyleGAN to create the image morph transition
