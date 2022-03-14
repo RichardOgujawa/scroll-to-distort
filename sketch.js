@@ -6,6 +6,7 @@ let y2;
 let w; 
 let h;
 
+
 function preload() {
   gif = loadImage('data/image-morph.gif');
 }
@@ -54,9 +55,11 @@ function draw() {
     else {
     }
 
+    // if(){
+            
+    // } else{
 
-
-//the picture area to distort is 267 and 194
+    // }
 }
 // function draw(){
 //     vid.x1 = random(width); 
