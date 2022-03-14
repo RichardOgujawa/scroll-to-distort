@@ -12,6 +12,7 @@ The horizontal movement of the mouse also leads to more and more distortion
 We should start with a clean baby photo and end with a distorted older person photo
 }
 
+
 If this is too hard to do just have it be a generative design, without human interaction.
 
 Because we don't know the effects of social media in old age, maybe only have it go from early childhood to adulthood.

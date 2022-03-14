@@ -1,0 +1,12 @@
+//Variable 
+video
+
+function draw() {
+link mouseY position to frame in video
+Do the horizontal pixel distortion effect by, and increase it's intensity the further up you go
+At a certain point do the distortion effect by weidi
+}
+
+//Variable()
+
+Have the same script being said in different voices and simply link mouseY to volume for each sound at each point
