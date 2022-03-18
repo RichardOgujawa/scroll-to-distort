@@ -1,0 +1,12 @@
+//Variables
+Let an array be the full sentence with each word beIng indexed separately
+Other variables will include the photo, and other variables for the distortion effect
+
+Function draw(){
+The distortion effect will intensify as the mouse goes up the screen
+The text will types itself on the screen according to the mouse position. 
+map a variable from 0, height of the mouseY to the 0, array.length-1 of the text variable
+Therefore, if the variable is a certain value, it will print out a corresponding word in the sentence
+}
+
+

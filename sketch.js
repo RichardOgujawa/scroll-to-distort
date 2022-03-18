@@ -1,79 +1,63 @@
-let gif;
-let x1; 
-let y1; 
-let x2; 
-let y2; 
-let w; 
+//IMAGE VARIABLES + EFFECTS VARIABLES
+let imgAdult;
+let imgBaby;
+let x1;
+let y1;
+let x2;
+let y2;
+let x3;
+let y3;
+let x4;
+let y4;
+let w;
 let h;
+
+//TEXT VARIABLES
+let sentence;
+let indicator;
 
 
 function preload() {
-  gif = loadImage('data/image-morph.gif');
+  imgBaby = loadImage('data/images/1early-childhood.jpg');
+  imgAdult = loadImage('data/images/7early-adulthood-sad.jpg')
 }
 
-function setup(){
-    createCanvas(windowWidth,windowHeight);
-
-    gif.setFrame(0);
-    
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  image(imgAdult, 0, 0);
+  sentence = ["The", "more", "we", "look", "the", "less", "we", "see."]
 }
 
-// Move your mouse up and down over canvas to see the GIF
-// frames animate
+
 function draw() {
-    // createCanvas(windowWidth,windowHeight);
+  //DISTORTION FX
+  let x1Higher = floor(map(mouseY, height, 0, 0, 200));
+  x1 = random(0, x1Higher);
+  y1 = random(x1Higher, x1Higher + 100);
 
-//   gif.pause();
-  image(gif, 0, 0);
-  // Get the highest frame number which is the number of frames - 1
-  let maxFrame = gif.numFrames() - 1;
-  // Set the current frame that is mapped to be relative to mouse position
-  let frameNumber = floor(map(mouseY, 0, height, maxFrame, 0));
-  gif.setFrame(frameNumber);
+  x2 = round(x1 + random(-10, 10));
+  y2 = round(y1 + random(-10, 10));
 
-//   print(frameNumber);
+  w = 300;
+  h = 5;
 
-    x1 = random(width); 
-    y1 = random(height); 
+  if (y1 >= 230 && y1 <= 245) {
+    set(x2, y2, get(x1, y1, w, h));
+  }
+  else {
+  }
 
-    x3 = random(width);
-    y3 = random(height);
+  //TEXT ANIMATION
+  fill(255);
+  noStroke();
+  rectMode(CORNER);
+  rect(windowWidth * 0.68, windowHeight * 0.52, 190, 100);
 
-    x2 = round(x1 + random(-10, 10)); 
-    y2 = round(y1 + random(-10, 10)); 
+  fill(0);
+  textSize(40);
+  textAlign(CENTER, CENTER)
+  indicator = floor(map(mouseY, 0, height, sentence.length - 1, 0));
+  text(sentence[indicator], windowWidth * 0.77, 400);
 
-    x4 = round(x3 + random(-10, 10)); 
-    y4 = round(y3 + random(-10, 10));
-    
-    w = width; 
-    h = 10; 
-
-    if(frameNumber>=30 && y1>=194 && y1<=267){
-        set(x2, y2, get(x1, y1, w, h)); 
-        set(x4, y4, get(x3, y3, w, h)); 
-    } 
-    else {
-    }
-
-    // if(){
-            
-    // } else{
-
-    // }
 }
-// function draw(){
-//     vid.x1 = random(width); 
-//     y1 = random(height); 
-
-//     x2 = round(x1 + random(-10, 10)); 
-//     y2 = round(y1 + random(-10, 10)); 
-    
-//     w = width/2; 
-//     h = 10; 
-
-//     if(y2>=100 && y2<=300){
-//         set(x1, y2, get(x1, y1, w, h)); 
-//     }
-
-// }
 
