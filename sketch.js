@@ -1,3 +1,8 @@
+/*INSTRUCTIONS
+1. Move your mouse from the bottom to top of the screen  to read the sentence on the right. 
+2. Scroll your trackpad to see the effects of excessive internet scrolling.  
+*/
+
 //IMAGE VARIABLES + EFFECTS VARIABLES
 let imgAdult;
 let pixels = [];
