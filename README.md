@@ -16,8 +16,8 @@ My project is a comment on <strong> social media usage</strong> and how the more
 
 # Coding References
 - <a href="https://editor.p5js.org/weidi/sketches/vANCGnkoU"><em>'week8-ImageProcessing'</em> by Weidi</a> 
--<a href="https://editor.p5js.org/generative-design/sketches/P_4_1_2_02"> <em>'P_4_1_2_02'</em> by Generative Design</a> 
--<a href="https://github.com/CodingTrain/website/tree/main/beginners/p5js/6.3-constructor-arguments/P5"><em>'6.3-constructor-arguments'</em> by Coding Train</a>  
+- <a href="https://editor.p5js.org/generative-design/sketches/P_4_1_2_02"> <em>'P_4_1_2_02'</em> by Generative Design</a> 
+- <a href="https://github.com/CodingTrain/website/tree/main/beginners/p5js/6.3-constructor-arguments/P5"><em>'6.3-constructor-arguments'</em> by Coding Train</a>  
 
 # Other Resources
 - Stack Overflow
