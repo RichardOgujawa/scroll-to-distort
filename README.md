@@ -1,6 +1,8 @@
 # Scroll to Distort
 This is a project I was given in a university module called <strong>Creative Programming</strong>.
 
+Here's a link to the working example: https://editor.p5js.org/richardogujawa7/sketches/y5Pg1yi_T
+
 The task was to create a project which addresses a relevant theme in <em>critical code/science </em> and <em>technology studies</em> and explores the <em>intersections of technical and cultural aspects of code</em>. 
 
 My project is a comment on <strong> social media usage</strong> and how the more you <em>scroll</em> the more <em>distorted</em> your reality becomes. 
